@@ -1,0 +1,91 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+header nav a{
+    font-weight: 700;
+}
+
+header nav ul li a{
+    font-weight: 500;
+}
+
+.card-title{
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+
+p{
+    font-weight: 500;
+}
+
+.nilai-kkm{
+    background-color: rgb(248, 190, 0);
+    color: white;
+}
+.nilai-remidi{
+    background-color: red;
+    color: white;
+}
+
+.list-kiri{
+    padding: 15px;
+}
+
+ol p label span {
+    margin-bottom: 5px;
+    
+}
+
+ol p li{
+    margin-right: 10px;
+}
+
+.terbang{
+    position: fixed;
+    right: 0;
+    margin-top: 150px;
+}
+
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.nav-wrapper{
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav-wrapper{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
